@@ -1,0 +1,118 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "ipGroups_ipgroup1_name": {
+            "value": null
+        },
+        "ipGroups_ipgroup2_name": {
+            "value": null
+        },
+        "virtualMachines_vm_iis_name": {
+            "value": null
+        },
+        "bastionHosts_bastion_hub_name": {
+            "value": null
+        },
+        "virtualNetworks_vnet_hub_name": {
+            "value": null
+        },
+        "virtualMachines_vm_onprem_name": {
+            "value": null
+        },
+        "connections_Hub_to_Onprem_name": {
+            "value": null
+        },
+        "connections_Onprem_to_Hub_name": {
+            "value": null
+        },
+        "virtualNetworks_vnet_spoke_name": {
+            "value": null
+        },
+        "azureFirewalls_hub_firewall_name": {
+            "value": null
+        },
+        "networkInterfaces_vm_iis975_name": {
+            "value": null
+        },
+        "routeTables_rt_hub_to_spoke_name": {
+            "value": null
+        },
+        "routeTables_rt_spoke_to_hub_name": {
+            "value": null
+        },
+        "virtualNetworks_vnet_onprem_name": {
+            "value": null
+        },
+        "natGateways_hub_firewall_NAT_name": {
+            "value": null
+        },
+        "publicIPAddresses_GW_hub_pip1_name": {
+            "value": null
+        },
+        "publicIPAddresses_GW_hub_pip2_name": {
+            "value": null
+        },
+        "publicIPAddresses_vnet_hub_ip_name": {
+            "value": null
+        },
+        "virtualNetworkGateways_GW_hub_name": {
+            "value": null
+        },
+        "networkInterfaces_vm_onprem940_name": {
+            "value": null
+        },
+        "virtualMachines_vm_jumpbox_spoke_name": {
+            "value": null
+        },
+        "publicIPAddresses_GW_onprem_pip1_name": {
+            "value": null
+        },
+        "publicIPAddresses_GW_onprem_pip2_name": {
+            "value": null
+        },
+        "virtualNetworkGateways_GW_onprem_name": {
+            "value": null
+        },
+        "publicIPAddresses_hub_firewall_pip_name": {
+            "value": null
+        },
+        "networkSecurityGroups_vm_onprem_nsg_name": {
+            "value": null
+        },
+        "firewallPolicies_hub_firewall_policy_name": {
+            "value": null
+        },
+        "networkInterfaces_vm_jumpbox_spoke63_name": {
+            "value": null
+        },
+        "publicIPAddresses_hub_firewall_NAT_pip_name": {
+            "value": null
+        },
+        "networkSecurityGroups_ServersSubnet_nsg_name": {
+            "value": null
+        },
+        "networkSecurityGroups_vnet_hub_workload_nsg_northeurope_name": {
+            "value": null
+        },
+        "networkSecurityGroups_vnet_spoke_workload_nsg_northeurope_name": {
+            "value": null
+        },
+        "networkSecurityGroups_vnet_onprem_workload_nsg_australiaeast_name": {
+            "value": null
+        },
+        "networkSecurityGroups_dioneli_vnet_JumpboxSubnet_nsg_northeurope_name": {
+            "value": null
+        },
+        "networkSecurityGroups_vnet_hub_AzureBastionSubnet_nsg_northeurope_name": {
+            "value": null
+        },
+        "networkSecurityGroups_vnet_spoke_AzureBastionSubnet_nsg_northeurope_name": {
+            "value": null
+        },
+        "networkSecurityGroups_dioneli_vnet_Dioneli_Rt_Subnet_nsg_northeurope_name": {
+            "value": null
+        }
+    }
+}
+ 
